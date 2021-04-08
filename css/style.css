@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    overflow: hidden;
+    font-family: 'Spartan', sans-serif;
+    padding: 20px;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+img{
+    width: 70%;
+    height: auto;
+    display: none;
+    padding: 1rem;
+}
+/* chevron style */
+i{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+/* active class on image */
+.active{
+    display: block;
+}
+
+.content-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
